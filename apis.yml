@@ -1,8 +1,25 @@
 aid: ares-interactive
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/ares-interactive.png
 name: Ares Interactive
-description: 'Ares Interactive is a company surfaced as a portfolio company of general-catalyst and added
-  to the API Evangelist network as a stub for enrichment. Sector: consumer. This profile is a lead awaiting
-  the enrichment pipeline.'
+description: 'Ares Interactive is a game developer and publisher founded in 2024 by
+  veteran industry leaders, operating studios in San Francisco and Berlin. The company
+  builds player-first games designed to evolve with their communities and grow into
+  enduring franchises, with a current portfolio that includes Baseball Hits, Heroes
+  vs. Hordes, and The Walking Dead: Aftermath. Ares Interactive is backed by General
+  Catalyst and was added to the API Evangelist network as a consumer/gaming portfolio
+  company. As of this enrichment pass the company publishes a marketing and careers
+  website but no public developer API, documentation portal, or SDK surface.'
 url: https://raw.githubusercontent.com/api-evangelist/ares-interactive/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -10,15 +27,32 @@ x-backed-by:
 - general-catalyst
 x-tier: stub
 x-tier-reason: portfolio-lead
+x-founded: '2024'
+x-sector: consumer
+x-industry: gaming
+x-headquarters: San Francisco, CA; Berlin, DE
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-18'
 tags:
 - Company
 - Consumer
+- Gaming
+- Video Games
+- Game Publisher
+- Mobile Games
+- Entertainment
 apis: []
+common:
+- type: Website
+  url: https://www.aresinteractive.com
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
